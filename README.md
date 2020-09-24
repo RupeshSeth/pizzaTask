@@ -39,5 +39,13 @@ password - admin
 - VuetifyJS (CSS and javascript framework for vuejs)
 - node-snackbar (to display the error and success message)
 
+## Features
+```
+- Mobile Responsive
+- PWA Supported
+```
+
+
+
 ## LIVE Demo 
-(https://zen-kilby-9acf3d.netlify.app/) 
+(https://cocky-pasteur-0ae9af.netlify.app/) 
