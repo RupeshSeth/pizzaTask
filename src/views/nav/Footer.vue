@@ -2,7 +2,7 @@
   <div class="Footer">
     <v-layout row wrap align-center justify-space-between fill-height>
       <v-flex xs12 md6>
-      <div class="white--text font-weight-bold text-sm-left text-md-left">&copy; 2020 The Appiness's Pizza</div>
+      <div class="white--text font-weight-bold " >&copy; 2020 The Appiness's Pizza</div>
       </v-flex>
       <v-flex xs12 md6>
       <div class="white--text font-weight-bold text-xs-center text-md-right">

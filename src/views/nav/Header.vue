@@ -1,8 +1,11 @@
 <template>
   <div class="Header">
     <v-layout px-3 row wrap align-center>
+      <v-flex v-if="$vuetify.breakpoint.smAndDown">
+         <v-icon size="36" color="#fff" @click="showLeftMenuClick">view_headline</v-icon>
+      </v-flex>
       <v-flex shrink>
-       
+         
          <v-img :src="require('@/assets/logo1.png')"  height="53px"
           width="100px"></v-img>
       </v-flex>
@@ -112,7 +115,7 @@ import { Vue, Component, Prop, Emit, Watch } from "vue-property-decorator";
 export default class Header extends Vue {
   private userProfile: any = "";
   private on: any;
-
+  private showLeftMenu: boolean = false;
   get emailId() {
     return window.localStorage.getItem("userEmailId") as string;
   }
@@ -135,6 +138,16 @@ export default class Header extends Vue {
     };
     this.userProfile = output;
   }
+
+
+  private showLeftMenuClick() {
+   
+    this.showLeftMenu  = !this.showLeftMenu
+    this.$root.$emit('openMenu', this.showLeftMenu);
+  }
+
+
+
 }
 </script>
 

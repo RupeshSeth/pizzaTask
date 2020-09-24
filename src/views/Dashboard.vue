@@ -6,7 +6,7 @@
         </v-layout>
         <v-divider></v-divider>
        <v-layout row wrap class="mt-5">
-            <v-flex xs12 md3 
+            <v-flex xs12 md3 class="mb-3"
             :class="{
               'pr-2': $vuetify.breakpoint.mdAndUp,
               'pr-0': $vuetify.breakpoint.smAndDown,
@@ -17,7 +17,7 @@
                     <p class="heading1 white--text font-weight-bold">{{this.totalOrderReceived()}}</p>
                 </v-card>
             </v-flex>
-            <v-flex xs12 md3
+            <v-flex xs12 md3 class="mb-3"
             :class="{
               'pr-2': $vuetify.breakpoint.mdAndUp,
               'pr-0': $vuetify.breakpoint.smAndDown,
@@ -28,7 +28,7 @@
                     <p class="heading1 white--text font-weight-bold">{{this.totalOrderPreparing()}}</p>
                 </v-card>
             </v-flex>   
-             <v-flex xs12 md3
+             <v-flex xs12 md3 class="mb-3"
              :class="{
               'pr-2': $vuetify.breakpoint.mdAndUp,
               'pr-0': $vuetify.breakpoint.smAndDown,
@@ -39,7 +39,7 @@
                     <p class="heading1 white--text font-weight-bold">{{this.totalReadyToServe()}}</p>
                 </v-card>
             </v-flex>
-            <v-flex xs12 md3
+            <v-flex xs12 md3 class="mb-3"
             :class="{
               'pl-2': $vuetify.breakpoint.mdAndUp,
               'pr-0': $vuetify.breakpoint.smAndDown,

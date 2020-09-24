@@ -1,5 +1,5 @@
 <template>
-  <div class="LeftNav">
+  <div class="LeftNav" v-if="($vuetify.breakpoint.smAndDown) ? UpdateStatus : true">
     <ul class="">
       <li class="active" @click="$router.push({name: 'Root.Dashboard'})">
         <div class="imgWrap"><v-icon size="36" color="#fff">shopping_cart</v-icon></div>
@@ -23,15 +23,18 @@ import { Vue, Component, Prop, Emit, Watch } from 'vue-property-decorator';
 @Component
 export default class LeftNav extends Vue {
 
+  private UpdateStatus: any = false;
 
-get pageUrl() {
-  return this.$route.path;
-}
+  private mounted() {
+    this.updatedMenu();
+  }
 
-
-get projectId() {
-  return this.$route.params.projectId;
-}
+  private updatedMenu () {
+    this.$root.$on('openMenu', (text: any) => { 
+      this.UpdateStatus = text;
+      console.log(this.UpdateStatus);
+    });
+  }
 
 
 }
