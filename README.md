@@ -35,9 +35,9 @@ password - admin
 # DASHBOARD
 ![myimage-alt-tag](https://drive.google.com/thumbnail?id=16zMOfCY8dqm3xr3OEI5rnnfxd3yAGmEq)
 
-## Dependensies
+## Dependencies
 - VuetifyJS (CSS and javascript framework for vuejs)
 - node-snackbar (to display the error and success message)
 
 ## LIVE Demo 
-[(https://zen-kilby-9acf3d.netlify.app/) 
+(https://zen-kilby-9acf3d.netlify.app/) 
