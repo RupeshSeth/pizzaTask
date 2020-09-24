@@ -1,0 +1,148 @@
+:root{
+    --themeColor: #941b00;
+    --primaryColor: #d84907;
+    --mainWhite: #fff;
+    --offWhite: #f7f7f7;
+    --mainBlack: #222;
+    --mainGrey: #ececec;
+    --darkGrey: #3a3b45;
+    --lightGrey: #eee;
+    --lightShadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
+    --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+    --headerHeight: 4rem;
+    --footerHeight: 4rem;
+    --mainPadding: 1rem;
+    --liHeight: 30px !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+
+.Dashboard {
+    padding: var(--mainPadding);
+    background-color: var(--lightGrey);
+    height: 100%
+}
+
+.row {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.Header {
+    background-color: var(--themeColor);
+    min-height: var(--headerHeight);
+    box-shadow: var(--lightShadow)
+}
+
+.Header .menuWrap {
+    float: right
+}
+
+.Footer {
+    background-color: var(--themeColor);
+    height: var(--footerHeight);
+    padding: var(--mainPadding)
+}
+
+.LeftNav {
+    height: calc(100vh - calc(var(--headerHeight) + var(--footerHeight)));
+    background-color: var(--darkGrey);
+    width: 6rem;
+    text-align: center;
+}
+
+.LeftNav ul {list-style-type: none; padding: 0 !important;margin: 0 !important;}
+.LeftNav ul li .imgWrap .v-image{
+    margin: 0 auto;
+    height: 24px;
+    width: 24px
+}
+
+.LeftNav ul li {
+    padding: 10px 0;
+    display: inline-block;
+    cursor:pointer;
+    width: 100%;
+    position:relative;
+    cursor: pointer;
+}
+.LeftNav ul li::after {
+    border-bottom: 1px solid #ccc;
+    content: '';
+    width: 100%;
+    height: 1px;
+    left: 0px;
+    bottom: 0px;
+    position: absolute;
+}
+
+.LeftNav ul li .textWrap {
+    color: var(--mainWhite)
+}
+
+.verticalPageScroll {
+    height: calc(100vh - calc(var(--headerHeight) + var(--footerHeight))) !important;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.verticalPageScrollInner {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    overflow:auto;
+}
+
+
+.verticalPageScroll.sideNav {
+    background-color: var(--darkGrey);
+}
+.cardHeight {
+    height: 150px;
+}
+
+.bg {
+    position:absolute;
+    z-index:0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.heading1{
+    font-size: 30px
+}
+
+.heading2{
+    font-size: 26px
+}
+
+.heading3{
+    font-size: 20px
+}
+
+.heading4{
+    font-size: 14px
+}
+
+.heading5{
+    font-size: 12px
+}
+
+.white{
+    color: #fff;
+}
+
+.grident3 {
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+.grident1 {
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 22%)
+}
+.grident2 {
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+.grident4 {
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+}
