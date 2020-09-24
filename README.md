@@ -1,30 +1,43 @@
-# pizza-task
+# PIZZA TASK INTRODUCTION
 
+```
+In this application its displays the orders received and its status - (Order Received,
+Preparing , Ready to serve).
+
+All the Orders are display in list view with order Id, Customer Name, No. of Items
+ordered, Total Amount of the Order, Status of the Order and a clickable Change Status
+button, that changes status of the order to the next state automatically on click.
+
+```
+## How to Install the PIZZA TASK
+```
+Download the pizzaTask in your system using git clone command or download zip file provided in this repo 
+(https://github.com/RupeshSeth/pizzaTask.git)
+```
 ## Project setup
 ```
 npm install
 ```
-
-### Compiles and hot-reloads for development
+#### Compiles and hot-reloads for development
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+# LOGIN PAGE
+![myimage-alt-tag](https://drive.google.com/thumbnail?id=1VkXzozrUFPJ93TFb8MOLMXD4tujUdiBO)
+
 ```
-npm run build
+user email-Id - admin@appinesspizza.com
+password - admin
+
 ```
 
-### Run your unit tests
-```
-npm run test:unit
-```
+# DASHBOARD
+![myimage-alt-tag](https://drive.google.com/thumbnail?id=16zMOfCY8dqm3xr3OEI5rnnfxd3yAGmEq)
 
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
+## Dependensies
+- VuetifyJS (CSS and javascript framework for vuejs)
+- node-snackbar (to display the error and success message)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
- #Pizza TasK
+## LIVE Demo 
+[(https://zen-kilby-9acf3d.netlify.app/) 
