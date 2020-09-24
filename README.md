@@ -40,4 +40,4 @@ password - admin
 - node-snackbar (to display the error and success message)
 
 ## LIVE Demo 
-[click here] (https://zen-kilby-9acf3d.netlify.app/#/auth/login) 
+[(https://zen-kilby-9acf3d.netlify.app/) 
