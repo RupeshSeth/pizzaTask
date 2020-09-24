@@ -38,3 +38,6 @@ password - admin
 ## Dependensies
 - VuetifyJS (CSS and javascript framework for vuejs)
 - node-snackbar (to display the error and success message)
+
+## LIVE Demo 
+[click here] (https://zen-kilby-9acf3d.netlify.app/#/auth/login) 
