@@ -81,8 +81,11 @@ export default class Login extends Vue {
 
 
     private login() {
+        
     const ref = this.$refs.form as any;
     if (ref.validate()) {
+
+        // We can call the rest API Here.
         if (this.emailId === 'admin@appinesspizza.com' && this.password === 'admin') {
             window.localStorage.setItem('login', 'success');
             window.localStorage.setItem('userEmailId', this.emailId);

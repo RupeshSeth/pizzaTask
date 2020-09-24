@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import VueRouter, { RouteConfig } from 'vue-router'
-
 import auth$AuthLayout from '@/layout/AuthLayout.vue';
 import auth$Login from '../views/Login.vue';
 import pizzatask$Dashboard from '../views/Dashboard.vue';
